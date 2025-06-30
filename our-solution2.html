@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Covai Nexus | AI & Automation</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="dark-mode">
+
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg shadow-lg" style="background-color: white;">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center text-dark" href="index.html">
+      <img src="img/logo3.png" alt="Covai Nexus Logo" width="80" height="70" class="me-2" style="object-fit: contain;" />
+    </a>
+
+    <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="index.html#about">About Us</a></li>
+
+        <!-- Our Solution Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold text-dark" href="#offer" id="solutionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Solution
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="solutionDropdown">
+            <li><a class="dropdown-item fw-bold" href="our-solution.html#ai">Back Office 4.0</a></li>
+            <li><a class="dropdown-item fw-bold" href="our-solution2.html#automation">Connected Enterprise Studio</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="index.html#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="career.html">Career</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="team.html">Our Team</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+ <!-- Connected Enterprise Studio Section -->
+<section id="automation" class="py-5" style="background: url('img/bg-2.jpg') no-repeat center center / cover; background-attachment: fixed;">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center fw-bold mb-5 text-white">Connected Enterprise Studio</h2>
+    <div class="row g-4">
+
+<!-- Card 1 -->
+<div class="col-md-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+        <img src="img/sb-1.jpg" alt="IoT" style="width: 250px; height: 180px; object-fit: contain;" class="mb-3" />
+        <h5 class="text-info">IoT & Edge AI</h5>
+      </div>
+      <div class="flip-card-back bg-dark text-white p-3">
+        <p>Our IoT and Edge AI solutions enable seamless device-to-cloud ingestion, allowing real-time sensor data to be collected and analyzed at the edge. 
+        With embedded inference capabilities, devices can perform intelligent actions without latency. We support streaming pipelines to platforms like 
+        AWS IoT Core and Azure IoT Hub for centralized insights and control.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-md-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+        <img src="img/sb-2.jpg" alt="Digital Twin" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3" />
+        <h5 class="text-success">Immersive & Digital Twins</h5>
+      </div>
+      <div class="flip-card-back bg-dark text-white p-3">
+        <p>Bring physical systems to life with our immersive technologies. Using AR-powered work instructions, field technicians can interact with intuitive overlays. 
+        Physics-based digital twins offer dynamic simulation, remote monitoring, and predictive maintenance capabilities, all integrated with real-time data.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 3 -->
+<div class="col-md-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+        <img src="img/sb-3.jpg" alt="Data Engineering" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3" />
+        <h5 class="text-primary">Data Engineering & Advanced Analytics</h5>
+      </div>
+      <div class="flip-card-back bg-dark text-white p-3">
+        <p>Empower your enterprise with robust data pipelines and analytics platforms. We design scalable data lakes, real-time KPI dashboards, and integrate 
+        Gen AI-driven narrative bots that interpret and explain complex data insights in human-like summaries.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 4 -->
+<div class="col-md-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+        <img src="img/sb-4.jpg" alt="Automation" style="width: 250px; height: 200px; object-fit: contain;" class="mb-3" />
+        <h5 class="text-warning">Smart Automations</h5>
+      </div>
+      <div class="flip-card-back bg-dark text-white p-3">
+        <p>We provide industrial automation solutions that integrate with PLC and SCADA systems. Our event-driven orchestration engine enables dynamic control 
+        of manufacturing lines, ensuring efficiency, reliability, and intelligent fault recovery across distributed assets.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 5 -->
+<div class="col-md-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+        <img src="img/sb-5.jpg" alt="Gen AI" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3" />
+        <h5 class="text-danger">Gen AI & Agentic AI Product Engineering</h5>
+      </div>
+      <div class="flip-card-back bg-dark text-white p-3">
+        <p>We specialize in custom large language model (LLM) development, fine-tuned for specific industries. Our RAG (Retrieval-Augmented Generation) pipelines 
+        and domain-focused Co-Pilots boost productivity through natural language assistance, task automation, and decision support.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 6 -->
+<div class="col-md-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+        <img src="img/sb-6.jpg" alt="Cloud DevSecOps" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3" />
+        <h5 class="text-secondary">Cloud-Native Platform & DevSecOps</h5>
+      </div>
+      <div class="flip-card-back bg-dark text-white p-3">
+        <p>Build resilient applications with our cloud-native approach using Kubernetes, microservices, and GitOps workflows. Our DevSecOps practices ensure 
+        continuous security integration and monitoring while Site Reliability Engineering (SRE) principles maintain high availability and performance.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-3" style="background-color: #000;">
+    &copy;  2025 CovAI Nexus Pvt Ltd. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap & AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

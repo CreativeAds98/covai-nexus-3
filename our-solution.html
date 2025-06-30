@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CovAI Nexus | AI & Automation</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="dark-mode">
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg shadow-lg" style="background-color: white;">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center text-dark" href="index.html">
+      <img src="img/logo3.png" alt="Covai Nexus Logo" width="80" height="70" class="me-2" style="object-fit: contain;" />
+    </a>
+
+    <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="index.html#about">About Us</a></li>
+
+        <!-- Our Solution Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold text-dark" href="#offer" id="solutionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Solution
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="solutionDropdown">
+            <li><a class="dropdown-item fw-bold" href="our-solution.html#ai">Back Office 4.0</a></li>
+            <li><a class="dropdown-item fw-bold" href="our-solution2.html#automation">Connected Enterprise Studio</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="index.html#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="career.html">Career</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="team.html">Our Team</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Back Office 4.0 Section -->
+<section id="ai" class="py-5" style="background: url('img/bg-1.jpg') no-repeat center center / cover; background-attachment: fixed;">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center fw-bold mb-5 text-white">Back Office 4.0</h2>
+    <div class="row g-4">
+
+      
+      <!-- Card 1: Finance & Accounting -->
+      <div class="col-md-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+              <img src="img/sa-1.jpg" alt="Finance Icon" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3">
+              <h5 class="text-info">Finance & Accounting</h5>
+            </div>
+            <div class="flip-card-back bg-dark">
+              <p>Our finance services cover the full range of accounting operations including Accounts Receivable (AR), Accounts Payable (AP), financial planning and forecasting, budget alignment, and regular financial health audits. We ensure seamless integration with regulatory compliance systems and tax authorities for stress-free reporting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Legal & Compliance -->
+      <div class="col-md-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+              <img src="img/sa-2.jpg" alt="Legal Icon" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3">
+              <h5 class="text-success">Legal & Compliance</h5>
+            </div>
+            <div class="flip-card-back bg-dark">
+              <p>We offer legal process automation with clause-level contract analysis, AI-powered redlining, smart contract drafting tools, and compliance verification across jurisdictions. Our tools help businesses reduce legal risk while accelerating deal closures.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: IT & Infra Support -->
+      <div class="col-md-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+              <img src="img/sa-3.jpg" alt="IT Support Icon" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3">
+              <h5 class="text-primary">IT & Infra Support</h5>
+            </div>
+            <div class="flip-card-back bg-dark">
+              <p>Our IT support services include 24/7 remote support, incident and SLA management, operating system maintenance, and directory services. We implement automation for common fixes and use observability platforms for proactive infrastructure health monitoring.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: HR & Payroll -->
+      <div class="col-md-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+              <img src="img/sa-4.jpg" alt="HR Icon" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3">
+              <h5 class="text-danger">HR & Payroll</h5>
+            </div>
+            <div class="flip-card-back bg-dark">
+              <p>We provide end-to-end HR operational support including onboarding, background verification (BGV), leave and attendance tracking, payroll processing, and benefits administration. Our system supports policy compliance and employee self-service tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Customer & Partner Support -->
+      <div class="col-md-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+              <img src="img/sa-5.jpg" alt="Customer Support Icon" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3">
+              <h5 class="text-warning">Customer & Partner Support</h5>
+            </div>
+            <div class="flip-card-back bg-dark">
+              <p>Our dedicated Level 1 and Level 2 helpdesk teams handle customer inquiries, technical issues, and partner queries with high efficiency. We implement feedback loops and customer success metrics to ensure user satisfaction and retention.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Administrative Support -->
+      <div class="col-md-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-dark text-center d-flex flex-column align-items-center justify-content-center p-3">
+              <img src="img/sa-6.jpg" alt="Admin Support Icon" style="width: 250px; height: 250px; object-fit: contain;" class="mb-3">
+              <h5 class="text-secondary">Administrative Support</h5>
+            </div>
+            <div class="flip-card-back bg-dark">
+              <p>Administrative services include day-to-day office management, procurement tracking, document management, vendor coordination, and centralized record keeping. We digitize admin workflows to cut overhead and improve internal service levels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <!-- Footer -->
+  <footer class="text-center text-white py-3" style="background-color: #000;">
+    &copy;  2025 CovAI Nexus Pvt Ltd. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap & AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
